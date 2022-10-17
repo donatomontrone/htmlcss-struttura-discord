@@ -40,6 +40,10 @@ h2 {
     font-size: 1.8rem;
 }
 
+h3 {
+    text-align: center;
+}
+
 .main-par {
     text-align: center;
     color: white;
@@ -69,10 +73,6 @@ button.main-button {
     padding: 0.7rem 1.2rem;
     margin-right: 1rem;
     font-size: 1.15rem;
-}
-
-button.mac-download {
-    background-color: white;
 }
 
 button.open-discord {
@@ -110,6 +110,7 @@ p.descr-par {
     font-size: .8rem;
     line-height: 1.3rem;
 }
+
 div.big-item {
     width:60%;
     text-align: center;
@@ -121,6 +122,24 @@ p.bigitem-par {
     font-size: 1.05rem;
 }
 
+.new-adventure {
+    align-items: center;
+    background: url(img/stars.svg), #f6f6f6;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
+.button-adventure {
+    align-items: center;
+    padding-bottom: 4rem;
+    background-color: #F6F6F6;
+}
+.mac-download {
+    background-color: #8EA1E1;
+    color: white;
+    padding: 2rem;
+}
 div.social {
     background-color: rgb(255,119,121);
     width: 30%;
