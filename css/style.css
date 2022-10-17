@@ -14,7 +14,18 @@ main {
     justify-content: center;
 }
 
-div > section {
+footer {
+    justify-content: center;
+    padding: 2rem;
+}
+
+summary {
+    background-color: rgb(0,187,172);
+    height: 25rem;
+    width: 10%;
+    border: .1rem white dashed;
+}
+.item > section {
     background-color: rgb(255, 107, 242);
     width: 60%;
     height: 15rem;
@@ -89,39 +100,26 @@ section:last-child {
 
 div.social {
     background-color: rgb(255,119,121);
-    height: 20rem;
+    height: 25rem;
+    width: 30%;
     border: .1rem black dashed;
 }
 
-nav.footer-nav {
-    background-color: rgb(0,187,172);
-    height: 20rem;
-
-
-}
-
-ul.flex {
-    height: 100%;
+ul > li {
     border: 1rem white dashed;
-}
-
-div.end-page {
-    background-color: rgb(62,255,212);
-    height: 3rem;
+    height: 20rem;
+    width: 10%;
 }
 
 .flex {
     display: flex;
 }
 
-/* .flexc   */
-
-
 .grey-bg {
     background-color: rgb(211,211,211);
 }
 
-.darkgre-bg {
+.darkgrey-bg {
     background-color: rgb(34,39,42);
 }
 
@@ -131,3 +129,17 @@ div.end-page {
     height: 4rem;
 }
 
+.container {
+    width: 100%;
+    justify-content: center;
+}
+
+.end-page {
+    width: 100%;
+    border-top: .2rem white solid;
+}
+
+.end-page > section {
+    width: 60%;
+    background-color: #7CF8D4;
+}
