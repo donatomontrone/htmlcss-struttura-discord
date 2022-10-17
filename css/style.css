@@ -8,20 +8,25 @@
 
 header {
     background-color: rgb(164, 217, 233);
-    width: 1200px;
-    height: 24.5rem;
+}
+
+main { 
     justify-content: center;
 }
 
-header div > section {
+div > section {
     background-color: rgb(255, 107, 242);
     width: 60%;
+    height: 15rem;
+    border: .1rem black dashed;
 
 }
 div.item {
     background-color: rgb(25, 0, 145);
     width: 100%;
     height: 20rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -45,14 +50,27 @@ div.item {
     text-align: center;
 }
 
+.info-item {
+    width: 100%;
+    max-height: max-content;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
 div.discord-descr {
     background-color: rgb(0, 134, 255);
+    width: 55%;
+    height: 15rem;
     border: .1rem black dashed;
+    
 }
 
 div.discord-img {
     background-color: rgb(255, 187, 201);
-    border: .1rem black dotted;
+    width: 35%;
+    height: 15rem;
+    border: .1rem black dashed;
 }
 
 div.big-item {
@@ -88,7 +106,6 @@ div.end-page {
     border: .1rem;
     justify-content: center;
     align-items: center;
-    width: 90%;
     height: 2rem;
 }
 
